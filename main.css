@@ -1,0 +1,69 @@
+/*
+__________      ___.         .__.__       .___
+\______   \ ____\_ |__  __ __|__|  |    __| _/
+ |       _// __ \| __ \|  |  \  |  |   / __ | 
+ |    |   \  ___/| \_\ \  |  /  |  |__/ /_/ | 
+ |____|_  /\___  >___  /____/|__|____/\____ | 
+        \/     \/    \/                    \/ 
+___________.__                                
+\__    ___/|  |__   ____                      
+  |    |   |  |  \_/ __ \                     
+  |    |   |   Y  \  ___/                     
+  |____|   |___|  /\___  >                    
+                \/     \/                     
+ __      __            .__       .___         
+/  \    /  \___________|  |    __| _/         
+\   \/\/   /  _ \_  __ \  |   / __ |          
+ \        (  <_> )  | \/  |__/ /_/ |          
+  \__/\  / \____/|__|  |____/\____ |          
+       \/                         \/ 
+       
+* Rebuild the World - Personal Project - author: AlienCipher *
+
+* Xây Dựng Lại Thế Giới - Dự Án Cá Nhân - tác giả: AlienCipher *
+
+*/
+
+
+html {
+	background-color: black;
+	color: white;
+}
+
+#logo {
+	margin: 0 auto;
+	border: solid cyan 2px;
+	font-size: 2vw;
+	width: 68%;
+	height: 30%;
+}
+
+#logo-banner {
+	text-align: center;
+	color: red;
+}
+
+.logo-text {
+	text-align: center;
+	color: white;
+}
+
+#select-section {
+	margin: auto;
+	display: inline-block;
+	border: solid cyan 2px;
+}
+
+#reporter {
+	margin: 0 auto;
+	border: solid cyan 2px;
+	display: inline-block;
+}
+
+#main-window {
+	margin: 0 auto;
+	position: absolute;
+	border: solid cyan 2px;
+	width: 97%;
+	height: 55%;
+}

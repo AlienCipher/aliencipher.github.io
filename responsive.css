@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  
+  #logo {
+	width: 35%;
+	font-size: 1vw;
+	float: left;
+}
+
+#window {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+#main-window {
+	width: 60%;
+	right: 0;
+}
+
+   {
+    width: 100%;
+  }
+  }

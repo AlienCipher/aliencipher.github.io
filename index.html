@@ -1,0 +1,126 @@
+<!--
+__________      ___.         .__.__       .___
+\______   \ ____\_ |__  __ __|__|  |    __| _/
+ |       _// __ \| __ \|  |  \  |  |   / __ | 
+ |    |   \  ___/| \_\ \  |  /  |  |__/ /_/ | 
+ |____|_  /\___  >___  /____/|__|____/\____ | 
+        \/     \/    \/                    \/ 
+___________.__                                
+\__    ___/|  |__   ____                      
+  |    |   |  |  \_/ __ \                     
+  |    |   |   Y  \  ___/                     
+  |____|   |___|  /\___  >                    
+                \/     \/                     
+ __      __            .__       .___         
+/  \    /  \___________|  |    __| _/         
+\   \/\/   /  _ \_  __ \  |   / __ |          
+ \        (  <_> )  | \/  |__/ /_/ |          
+  \__/\  / \____/|__|  |____/\____ |          
+       \/                         \/ 
+       
+* Rebuild the World - Personal Project - author: AlienCipher *
+
+* Xây Dựng Lại Thế Giới - Dự Án Cá Nhân - tác giả: AlienCipher *
+-->
+
+<!DOCTYPE html>
+		
+		<html lang="vi-VN">
+			
+			<head>
+				
+				<meta name="author" content="@AlienCipher">
+					
+					 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				
+			<meta charset="utf-8">
+					
+					
+						<!-- Page title - Begin -->
+						<title>RebuildtheWorld</title>
+						<!-- Page title - End -->
+						
+						<!-- Link to css - Begin -->
+						<link rel="stylesheet" href="/main.css">
+						<link rel="stylesheet" href="/responsive.css">
+						<!-- Link to css - End -->
+							
+			</head>
+			
+			<body onload="getURI();">
+					
+					<div id="logo"> <!-- Begin logo -->
+						
+						<pre id="logo-banner">
+  __________      ___.         .__.__       .___
+  \______   \ ____\_ |__  __ __|__|  |    __| _/
+   |       _// __ \| __ \|  |  \  |  |   / __ | 
+   |    |   \  ___/| \_\ \  |  /  |  |__/ /_/ | 
+   |____|_  /\___  >___  /____/|__|____/\____ | 
+          \/     \/    \/                    \/ 
+           ___________.__                       
+           \__    ___/|  |__   ____             
+             |    |   |  |  \_/ __ \            
+             |    |   |   Y  \  ___/            
+             |____|   |___|  /\___  >           
+                           \/     \/            
+        __      __            .__       .___    
+       /  \    /  \___________|  |    __| _/    
+       \   \/\/   /  _ \_  __ \  |   / __ |     
+        \        (  <_> )  | \/  |__/ /_/ |     
+         \__/\  / \____/|__|  |____/\____ |     
+              \/                         \/     
+            		  </pre>
+						
+						
+							<p class="logo-text">* Rebuild the World - Personal Project - author: AlienCipher *</p>
+							<p class="logo-text">* Xây Dựng Lại Thế Giới - Dự Án Cá Nhân - tác giả: AlienCipher *</p>
+							
+						</div> <!-- End logo -->
+							
+							<br>
+										<!-- Begin window -->
+											<div id="window">
+											<div id="select-section"> <!-- Begin select section -->
+											 <select id="select-menu" onchange="newSrc()">
+  												<option selected="selected" value="/trang chủ.html">Trang chủ</option>
+  												<option value="/cảm ơn.html">Cảm ơn</option>
+  												<option value="/thế giới/nền tảng.html">Thế giới</option>
+											</select>
+											 <!-- Begin current path reporter -->
+											 	<span>Đường dẫn: </span>
+												<span id="reporter-window"></span>
+												<!-- End current path reporter -->
+										</div> <!-- End select section -->
+											
+											<br>
+
+										<br>
+									<div id="main">
+									<iframe id="main-window" src="/trang chủ.html"></iframe>
+									</div>
+									</div>
+									
+									<!-- End main window -->
+										
+										<script>
+											
+											function newSrc() {
+											var src = document.getElementById('select-menu').value;
+											document.getElementById('main-window').src = src;
+											}
+											
+											function getURI() {
+												var iframe = document.getElementById('main-window');
+												var uri = iframe.contentWindow.location.pathname;
+												var decoded = decodeURI(uri);
+												document.getElementById('reporter-window').innerHTML = decoded;
+												setTimeout(getURI, 50);
+												}
+												
+											</script>
+												</body>
+				</html>
+				
+				
+				
