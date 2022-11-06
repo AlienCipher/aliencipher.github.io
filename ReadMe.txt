@@ -29,7 +29,7 @@ ___________.__
 
 // Tiếp cận dự án này như thế nào?
 
-Mở tệp tin "index.html" bằng bất kỳ trình duyệt hiện đại nào để tiếp cận nội dung chi tiết của dự án.
+Mở tệp tin "index.html" bằng bất kỳ trình duyệt hiện đại nào để tiếp cận nội dung chi tiết của dự án. Nếu trình duyệt của bạn chỉ tải được mỗi một tệp index.html mà không liên kết được với các tệp khác. Bạn có thể khởi động một máy chủ (server) đơn giản ngay tại thư mục này và truy cập lại.
 
 // Lưu ý gửi đến độc giả hoặc cá nhân đang sở hữu dữ liệu về dự án này:
 

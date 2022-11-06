@@ -49,7 +49,6 @@ html {
 }
 
 #select-section {
-	margin: auto;
 	display: inline-block;
 	border: solid cyan 2px;
 }
